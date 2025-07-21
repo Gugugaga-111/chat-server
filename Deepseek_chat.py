@@ -2,7 +2,7 @@ import requests
 
 def deepseek_chat(inputAction):
     headers = {
-        "Authorization": "Bearer sk-1978ad547ed547789ae5d1b852287934",
+        "Authorization": "", #这里填入获取到的Depseek API
         "Content-Type": "application/json"
     }
     data = {
